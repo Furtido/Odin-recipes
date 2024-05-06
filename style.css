@@ -16,3 +16,21 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #4D869C;
 }
+
+.button-css {
+    padding: 10px 20px;
+    background-color: #4D869C;
+    color: #EEF7FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+
+}
+
+.button-css:hover {
+    background-color: #7AB2B2;
+}
+
+.button-css:active {
+    background-color: #CDE8E5;
+}
