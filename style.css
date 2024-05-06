@@ -1,0 +1,22 @@
+h1,h2,p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4D869C;
+}
+
+.div-img {
+    text-align: center;
+}
+
+p {
+    
+}
+
+body {
+    background-color: #EEF7FF;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4D869C;
+}
