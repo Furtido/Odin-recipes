@@ -28,7 +28,9 @@ li {
 }
 
 .button-css:hover {
+    scale: 1.05;
     background-color: #7AB2B2;
+
 }
 
 .button-css:active {
