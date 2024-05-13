@@ -4,6 +4,10 @@ h1,h2,p {
     color: #4D869C;
 }
 
+.index {
+    font-size: 60px;
+}
+
 .div-img {
     text-align: center;
 }
@@ -17,7 +21,18 @@ li {
     color: #4D869C;
 }
 
+.box-ul, .box-ol {
+    width: 500;
+    height: 300;
+    display: grid;
+    place-content: center;
+}
+
 .button-css {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
     padding: 10px 20px;
     background-color: #4D869C;
     color: #EEF7FF;
@@ -35,4 +50,25 @@ li {
 
 .button-css:active {
     background-color: #CDE8E5;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+}
+
+.box-pastor,.box-lasagna, .box-fried {
+    margin: 7px;
+}
+
+.box-pastor:hover {
+    scale: 1.05;
+}
+
+.box-lasagna:hover {
+    scale: 1.05;
+}
+
+.box-fried:hover {
+    scale: 1.05;
 }
