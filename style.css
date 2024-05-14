@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
 h1,h2,p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,6 +43,7 @@ li {
 }
 
 .box-ul, .box-ol {
+    margin: 10px 10px;
     display: flex;
     justify-content: center;
 }
@@ -82,7 +87,7 @@ li {
 }
 
 .pages-item {
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 
 .container-photo-box {
@@ -94,7 +99,7 @@ li {
 .photo-box {
     width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
