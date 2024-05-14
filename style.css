@@ -1,15 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1,h2,p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #4D869C;
+    color: #003C43;
 }
 
-.index {
+.container-header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
     font-size: 60px;
 }
 
 .div-img {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.img-esp {
+    width: 500px;
+    border-radius: 10px;
 }
 
 body {
@@ -18,14 +35,12 @@ body {
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #4D869C;
+    color: #003C43;
 }
 
 .box-ul, .box-ol {
-    width: 500;
-    height: 300;
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .button-css {
@@ -52,23 +67,71 @@ li {
     background-color: #CDE8E5;
 }
 
-.columns {
+.container-pages {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
-.box-pastor,.box-lasagna, .box-fried {
-    margin: 7px;
+.pages {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.box-pastor:hover {
-    scale: 1.05;
+.pages-item {
+    margin: 10px 0;
 }
 
-.box-lasagna:hover {
-    scale: 1.05;
+.container-photo-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-.box-fried:hover {
-    scale: 1.05;
+.photo-box {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h2-photo-box {
+    margin-top: 5px;
+}
+
+.photo-box-item {
+    width: 330px;
+    height: 330px;
+}
+
+.box-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.box-img:hover {
+    scale:1.05;
+    opacity: 0.8;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #77b0aa;
+    background-color: #77b0aa;
+    height: 50px;
 }
